@@ -8,7 +8,7 @@ type FriendList = {
   }[];
 };
 
-type Friends = FriendList["friends"];
+type Friends = FriendList["friends"]
 
 type Friend = Friends[number]
 
